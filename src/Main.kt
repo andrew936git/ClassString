@@ -6,7 +6,7 @@ fun main() {
     line.forEach { element -> print("\'$element\' ") }
     println("\n==========================================")
 //2
-   /* val isCorrect: Boolean
+    val isCorrect: Boolean
     println("Введите номер телефона")
         val phoneNumber = readln()
         if (phoneNumber.substring(0, 2) != "+7") {
@@ -14,7 +14,7 @@ fun main() {
             println("Номер должен начинаться с \'+7\'")
         } else if (phoneNumber.substring(2).length == 10) isCorrect = true
         else isCorrect = false
-    println(isCorrect)*/
+    println(isCorrect)
     println("=============================================")
 //3
     val newLine = "Занятие"
